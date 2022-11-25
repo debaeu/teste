@@ -1,0 +1,130 @@
+.menu h1{
+     color: rgb(5, 5, 63);
+     margin: 20px;
+     font-family: 'Fredoka One', cursive;
+}
+
+body{
+    background-color: rgb(5, 5, 63);
+    font-family: 'Fredoka One', cursive;
+}
+
+.menu{
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+
+.links a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color:darkblue
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteúdo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteúdo-img img{
+    width: 700px;
+    margin: 60px;
+}
+
+.conteúdo-texto h2{
+    font-size: 60px;
+color: white;
+}
+    
+.conteúdo-texto p{
+    color: white;
+    font-size: 20px;
+}
+
+.conteúdo-texto {
+    width: 400px;
+    margin-top: 100px;
+}
+.card {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+
+}
+.card-conteudo {
+    border-radius: 50px;
+    background-color: rgb(5, 5, 63);
+    width: 300px;
+    margin-top: 50px;
+    color: white;
+    height: 360px;
+}
+.card-conteudo img{
+    margin-top: -30px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+.button{
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
+.card-conteudo h2{
+    margin-bottom: 20px;
+    color:darkmagenta
+}
+
+.button:hover{
+    height: 45px;
+    width: 95px;
+    background-color: darkmagenta;
+    color: white;
+}
+.conteúdo-img2 img{
+    height: 300px;
+    }
+
+.conteúdo2{
+display: flex;
+justify-content:space-around;
+align-items: center;
+color: white;
+margin-top: 30px;
+}
+
+.conteúdo-texto2 {
+    width: 360px;
+    height: 200px;
+    margin-top: 100px;
+  color: white
+  
+}
+
+.conteúdo-texto2 p{
+    width: 300px;
+
+}
+
+.título{
+display: grid;
+justify-content: center;
+margin-top: 20px;
+color: white;
+font-size: 30px;
+}
